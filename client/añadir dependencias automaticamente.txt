@@ -1,0 +1,3 @@
+"scripts": {
+  "postinstall": "npm install --prefix client"
+}
