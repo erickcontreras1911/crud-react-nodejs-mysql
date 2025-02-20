@@ -163,7 +163,8 @@ function App() {
   //HTML QUE RETORNA LA VISTA
   return (
     <div className='container'>
-      <p>Esto es una prueba</p>
+      <br/>
+      <h1 className='text-center'>CRUD NodeJS + React + MySQL</h1>
       <br/>
       <div className="card text-center">
         <div className="card-header">
