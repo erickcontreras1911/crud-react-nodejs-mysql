@@ -167,7 +167,7 @@ function App() {
   }, []);
 
   const initMap = () => {
-    const centro = { lat: 19.4326, lng: -99.1332 }; 
+    const centro = { lat: 14.504039274759423, lng: -90.61420438463328 };  
     const googleMap = new window.google.maps.Map(document.getElementById("map"), {
       center: centro,
       zoom: 12,
