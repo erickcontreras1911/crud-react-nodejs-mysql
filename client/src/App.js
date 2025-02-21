@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus, faEdit, faTrash, faBan } from "@fortawesome/free-solid-svg-icons";
 import Swal from 'sweetalert2';
 
+//HOLA MUX
+
 function App() {
   const [nombre, setNombre] = useState("");
   const [edad, setEdad] = useState();
