@@ -1,0 +1,20 @@
+AWS RDS
+Base de datos: crud-empleados
+Usuario maestro: adminaws
+Contraseña: Adm!nAnalisis4
+
+/*BASE DE DATOS AWS*/
+const db = mysql.createConnection({
+    host: "crud-empleados.ch22cmyeq634.us-east-2.rds.amazonaws.com",
+    user: "adminaws",
+    password: "Adm!nAnalisis4",
+    database: "empleados_crud"
+});
+
+/**/Base de Datos Local
+const db = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "so2",
+    database: "empleados_crud"
+});
