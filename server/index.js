@@ -6,11 +6,11 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-/* CONEXIÓN A LA BASE DE DATOS */
+/*BASE DE DATOS AWS*/
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "so2",
+    host: "crud-empleados.ch22cmyeq634.us-east-2.rds.amazonaws.com",
+    user: "adminaws",
+    password: "Adm!nAnalisis4",
     database: "empleados_crud"
 });
 

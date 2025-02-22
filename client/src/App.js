@@ -225,6 +225,7 @@ function App() {
     <div className='container'>
       <br />
       <h1 className='text-center'>CRUD NodeJS + React + MySQL</h1>
+      <h1 className='text-center text-success'>ERICK CONTRERAS</h1>
       <br />
       <div className="card text-center">
         <div className="card-header">
