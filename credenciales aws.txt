@@ -18,3 +18,5 @@ const db = mysql.createConnection({
     password: "so2",
     database: "empleados_crud"
 });
+
+Prueba Erick Contreras
