@@ -226,6 +226,8 @@ function App() {
       <br />
       <h1 className='text-center'>CRUD NodeJS + React + MySQL</h1>
       <br />
+      <h1 className='text-center'>Geovany Pérez</h1>
+      <br />
       <div className="card text-center">
         <div className="card-header">
           <h4>Gestión de Empleados</h4>
